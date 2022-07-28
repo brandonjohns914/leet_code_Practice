@@ -46,20 +46,21 @@ class Solution_2 {
 public:
     vector<int> twoSum(vector<int>& nums, int target)
     {
-        int front =0;
-        int rear = nums.size()-1;
+        int first =0;
+        int last = nums.size()-1;
         sort(nums.begin(), nums.end());
-        while(front < rear)
+        // while first is always larger than last
+        while(first < last)
         {
-            int sum = nums[front]+nums[rear];
+            int sum = nums[first]+nums[last];
             if(sum == target)
                 break;
             else if(sum>target)
-                rear--;
+                last--;
             else
-                front++;
+                first++;
         }
-        return {front, rear};
+        return {first, last};
     }
 };
 

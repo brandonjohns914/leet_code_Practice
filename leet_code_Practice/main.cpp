@@ -6,10 +6,12 @@
 //
 
 #include <iostream>
+bool isPalindrome(int x);
 using namespace std;
 
 int main() {
-    
+ 
 }
+
 
 
