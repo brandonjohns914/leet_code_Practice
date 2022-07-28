@@ -22,11 +22,15 @@ class Solution_1 {
 public:
     vector<int> twoSum(vector<int>& nums, int target)
     {
+        // finding length of vector of numbers
         int length = nums.size();
+        // looping through the length;
         for(int i =0; i<length; i++)
         {
+            // starting position [1] and looping through
             for(int j= i+1; j<length; j++)
             {
+                // if position j == target position minus position i return i,j
                 if(nums[j]== target-nums[i])
                     return {i,j};
             }
