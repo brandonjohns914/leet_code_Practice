@@ -1,20 +1,19 @@
 //
-//  main.cpp
+//  roman_to_int.cpp
 //  leet_code_Practice
 //
-//  Created by Brandon Johns on 2/20/22.
+//  Created by Brandon Johns on 7/28/22.
 //
 
-#include <iostream>
-
+#include <stdio.h>
 using namespace std;
-#include <sstream>
-int romanToInt(string s);
-int get_converted_number(char convert);
-int main() {
-   
-}
-int get_converted_number(char convert)
+#include <iostream>
+#include<map>
+
+
+class Solution {
+public:
+    int get_converted_number(char convert)
 {
     switch(convert)
     {
@@ -55,3 +54,7 @@ int romanToInt(string s)
     converted_value += get_converted_number(s[s.size()-1]);
     return converted_value;
 }
+};
+
+
+
