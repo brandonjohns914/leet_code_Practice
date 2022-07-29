@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		413961D7289319090018A450 /* is_Palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 413961D6289319090018A450 /* is_Palindrome.cpp */; };
 		413961D9289331430018A450 /* roman_to_int.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 413961D8289331430018A450 /* roman_to_int.cpp */; };
+		413961DB28936B930018A450 /* longest_common_prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 413961DA28936B930018A450 /* longest_common_prefix.cpp */; };
 		41A9472427C2F8F90048B504 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A9472327C2F8F90048B504 /* main.cpp */; };
 		41A9472B27C305EE0048B504 /* two_Sum_Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A9472A27C305EE0048B504 /* two_Sum_Problem.cpp */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		413961D6289319090018A450 /* is_Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = is_Palindrome.cpp; sourceTree = "<group>"; };
 		413961D8289331430018A450 /* roman_to_int.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roman_to_int.cpp; sourceTree = "<group>"; };
+		413961DA28936B930018A450 /* longest_common_prefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_common_prefix.cpp; sourceTree = "<group>"; };
 		41A9472027C2F8F90048B504 /* leet_code_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leet_code_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A9472327C2F8F90048B504 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		41A9472A27C305EE0048B504 /* two_Sum_Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = two_Sum_Problem.cpp; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				41A9472A27C305EE0048B504 /* two_Sum_Problem.cpp */,
 				413961D6289319090018A450 /* is_Palindrome.cpp */,
 				413961D8289331430018A450 /* roman_to_int.cpp */,
+				413961DA28936B930018A450 /* longest_common_prefix.cpp */,
 			);
 			path = Problems_easy;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				413961D7289319090018A450 /* is_Palindrome.cpp in Sources */,
 				41A9472B27C305EE0048B504 /* two_Sum_Problem.cpp in Sources */,
+				413961DB28936B930018A450 /* longest_common_prefix.cpp in Sources */,
 				413961D9289331430018A450 /* roman_to_int.cpp in Sources */,
 				41A9472427C2F8F90048B504 /* main.cpp in Sources */,
 			);

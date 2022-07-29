@@ -1,29 +1,27 @@
 //
-//  main.cpp
+//  longest_common_prefix.cpp
 //  leet_code_Practice
 //
-//  Created by Brandon Johns on 2/20/22.
+//  Created by Brandon Johns on 7/28/22.
 //
 
+#include <stdio.h>
+#include <string>
 #include <iostream>
-
+#include <vector>
 using namespace std;
-#include <sstream>
-#include<vector>
-string longestCommonPrefix(vector<string>& str);
-int main() {
-   
-}
-
-string longestCommonPrefix(vector<string>& str)
-{
-    int size = str.size();
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        
+    
+    int size = strs.size();
     if (size ==0)
         return "";
     string answer = "";
-    sort(begin(str), end(str));
-    string first = str[0];
-    string second = str[size-1];
+    sort(begin(strs), end(strs));
+    string first = strs[0];
+    string second = strs[size-1];
     
     for (int i = 0; i<first.size(); i++)
     {
@@ -37,4 +35,5 @@ string longestCommonPrefix(vector<string>& str)
         }
     }
     return answer;
-}
+    }
+};
