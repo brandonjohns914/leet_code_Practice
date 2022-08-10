@@ -1,26 +1,19 @@
 //
-//  main.cpp
+//  is_valid_string.cpp
 //  leet_code_Practice
 //
-//  Created by Brandon Johns on 2/20/22.
+//  Created by Brandon Johns on 8/10/22.
 //
 
-#include <iostream>
-using namespace std;
-#include <sstream>
-#include<vector>
+#include <stdio.h>
 #include <string>
 #include <stack>
+using namespace std;
 
-bool isValid(string s);
-int main() {
-    string ss= "(HELLO THERE)";
-    cout<< isValid(ss);
-}
-
-bool isValid(string s)
-{
-    stack<char> st;
+class Solution {
+public:
+    bool isValid(string s) {
+        stack<char> st;
     for(auto& c:s)
     {
         if(c=='(')
@@ -45,4 +38,5 @@ bool isValid(string s)
         }
     }
     return st.empty()==true;
-}
+    }
+};
